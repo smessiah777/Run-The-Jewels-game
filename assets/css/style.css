@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#hero-section {
+  background-image: url(../images/run-the-jewels-animated.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+#main-title {
+  color: #ffffff;
+  -webkit-text-stroke: 3px teal;
+  font-family: "Permanent Marker", cursive;
+  font-size: 100px;
+  letter-spacing: 10px;
+  text-align: left;
+  padding-top: 10%;
+  margin-bottom: 50px;
+  z-index: 2;
+}
+
+/* #main-title:hover {
+    color: rgb(255, 217, 0);
+    -webkit-text-stroke: 2px teal;
+} */
+
+#game-instructions {
+  background-color: rgba(0, 128, 128, 0.466);
+  color: #ffffff;
+  width: 700px;
+  height: 300px;
+  border: 5px solid rgba(255, 217, 0, 0.746);
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+}
+
+#instructions-header {
+  font-family: "Permanent Marker", cursive;
+  -webkit-text-stroke: 0.5px rgba(255, 217, 0, 0.746);
+}
+
+#icon-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#enter-icon {
+  color: rgb(255, 217, 0);
+  font-size: 100px;
+  text-align: center;
+}
+
+#enter-icon:hover {
+  color: teal;
+  -webkit-text-stroke: 2px #ffffff;
+}
