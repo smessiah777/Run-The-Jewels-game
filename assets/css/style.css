@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  font-family: "Permanent Marker", cursive;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -19,42 +24,53 @@
 }
 
 #main-title {
-  color: #ffffff;
-  -webkit-text-stroke: 3px teal;
+  color: #e0d7d7;
+  -webkit-text-stroke: 3px rgb(0, 128, 128);
   font-family: "Permanent Marker", cursive;
   font-size: 100px;
-  letter-spacing: 10px;
+  letter-spacing: 15px;
   text-align: left;
   padding-top: 10%;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
+  margin-left: 50px;
+  /* border-bottom: 5px solid teal; */
   z-index: 2;
 }
 
 /* #main-title:hover {
-    color: rgb(255, 217, 0);
-    -webkit-text-stroke: 2px teal;
+  color: rgb(255, 217, 0);
+  -webkit-text-stroke: 2px teal;
 } */
 
 #game-instructions {
-  background-color: rgba(0, 128, 128, 0.466);
+  background-color: rgb(0, 128, 128);
   color: #ffffff;
   width: 700px;
   height: 300px;
   border: 5px solid rgba(255, 217, 0, 0.746);
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
 }
 
 #instructions-header {
-  font-family: "Permanent Marker", cursive;
-  -webkit-text-stroke: 0.5px rgba(255, 217, 0, 0.746);
+  color: #ffffff;
+  -webkit-text-stroke: 3px black;
+  font-size: 40px;
+  border-bottom: 2px solid gold;
+  margin-bottom: 10px;
+}
+
+#instructions-p {
+  -webkit-text-stroke: 1px black;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 #icon-container {
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: center;
 }
 
@@ -62,9 +78,154 @@
   color: rgb(255, 217, 0);
   font-size: 100px;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 #enter-icon:hover {
   color: teal;
   -webkit-text-stroke: 2px #ffffff;
+}
+
+/* Hero section styles end */
+
+#game-section {
+  background-image: url(../images/run-the-jewels-animated.jpg);
+  background-color: black;
+  height: 100vh;
+  margin-top: 200px;
+}
+
+.game-display {
+  background-color: teal;
+  text-align: center;
+  width: 800px;
+  height: 155px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  color: black;
+  -webkit-text-stroke: 2px rgb(255, 217, 0);
+  font-size: 40px;
+  border-bottom: 3px solid black;
+  margin-bottom: 10px;
+}
+
+.game-display-value {
+  color: black;
+  -webkit-text-stroke: 2px rgb(255, 217, 0);
+  font-size: 80px;
+}
+
+.jewel-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+
+.jewel-img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgb(255, 217, 0);
+  margin-right: 50px;
+}
+
+.jewel-img:last-child {
+  margin-right: 0;
+}
+
+.jewel-img:hover {
+  border: 20px solid teal;
+}
+/* animation */
+.animated-icon {
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translateY(2);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+/* main-title animation */
+.animated-main-title {
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce-title {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce-title {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translateY(5);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.bounce-title {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
 }

@@ -17,17 +17,24 @@
       href="https://fonts.googleapis.com/css?family=Permanent+Marker"
       rel="stylesheet"
     />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/mike_elp.png"
+      type="image/png"
+    />
   </head>
   <body>
     <section id="hero-section">
       <div class="container">
         <header>
-          <h1 id="main-title">JEWEL RUNNERS</h1>
+          <h1 id="main-title" class="animated-main-title bounce-title">
+            JEWEL RUNNERS
+          </h1>
         </header>
 
         <div id="game-instructions">
           <h2 id="instructions-header">::GAME INSTRUCTIONS::</h2>
-          <p>
+          <p id="instructions-p">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
             excepturi hic consequatur similique id ex velit harum sapiente
             eveniet labore quas, quae illum at voluptate ea, minus quam
@@ -35,56 +42,56 @@
           </p>
         </div>
 
-        <div id="icon-container">
-          <a id="enter-icon" href="#game-section"
+        <div id="icon-container" class="animated-icon bounce">
+          <a id="enter-icon" href="#game-section" alt="click to go to game"
             ><i class="fas fa-chevron-down"></i
           ></a>
         </div>
       </div>
     </section>
 
-    <div class="container">
-      <section id="game-section">
-        <div id="game-number">
+    <section id="game-section">
+      <div class="container">
+        <div class="game-display">
           <h2>GAME #</h2>
-          <p id="game-number-value">0</p>
+          <p id="game-number" class="game-display-value">0</p>
         </div>
-        <div class="jewel-container">
+        <div class="jewel-container animated-main-title bounce-title">
           <img
             id="j1"
-            class="jewel-img"
+            class="jewel-img animated-main-title bounce-title"
             src="./assets/images/purple-crystal.jpg"
             alt=""
             srcset=""
           />
           <img
             id="j2"
-            class="jewel-img"
+            class="jewel-img animated-main-title bounce-title"
             src="./assets/images/clear-crystal.jpg"
             alt=""
             srcset=""
           />
           <img
             id="j3"
-            class="jewel-img"
+            class="jewel-img animated-main-title bounce-title"
             src="./assets/images/green-crystal.jpg"
             alt=""
             srcset=""
           />
           <img
             id="j4"
-            class="jewel-img"
+            class="jewel-img animated-main-title bounce-title"
             src="./assets/images/blue-crystal.jpg"
             alt=""
             srcset=""
           />
         </div>
 
-        <div id="player-score">
+        <div class="game-display">
           <h2>YOUR SCORE</h2>
-          <p id="player-score-value">0</p>
+          <p id="score-number" class="game-display-value">0</p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </body>
 </html>
