@@ -23,6 +23,10 @@ $(document).ready(function() {
 
   //hero section button start
   $("#enter-icon").on("click", function() {
+    var id = $("this").data("id");
+
+    var audio = $("#boom #" + id)[0];
+    audio.play();
     start();
   });
 
@@ -73,7 +77,7 @@ $(document).ready(function() {
     console.log("I am the player score ", sumScore);
   };
   //hard reset game, generate new game number and clear player
-  var resetHard = function() {
+  var reset = function() {
     start();
     $(sumScore).empty();
     $("#score-number").html("0");
@@ -102,5 +106,5 @@ $(document).ready(function() {
     addJewels(jewels.j4);
   });
 
-  $("#reset-btn").click(resetHard);
+  $("#reset-btn").click(reset);
 });
