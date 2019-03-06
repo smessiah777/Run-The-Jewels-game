@@ -39,12 +39,21 @@
 
         <div id="game-instructions">
           <h2 id="instructions-header">::GAME INSTRUCTIONS::</h2>
-          <p id="instructions-p">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            excepturi hic consequatur similique id ex velit harum sapiente
-            eveniet labore quas, quae illum at voluptate ea, minus quam
-            consequuntur fugiat!
+          <p class="instructions-p">
+            Get Ready Jewel Runner!
           </p>
+          <p class="instructions-p">
+            You can't just have someone run the jewels you have to count them
+            too!
+          </p>
+          <p class="instructions-p">
+            Each jewel has a value, match the game # then hop in the uber and
+            maneuver out the area!
+          </p>
+          <p class="instructions-p">
+            If you don't match right you can close your eyes and count!
+          </p>
+          <p class="instructions-p">DON'T GET CAPTURED!</p>
         </div>
 
         <div id="icon-container" class="animated-icon bounce">
@@ -60,6 +69,9 @@
         <div class="game-display">
           <h2>GAME #</h2>
           <p id="game-number" class="game-display-value">0</p>
+        </div>
+        <div id="reset-btn">
+          <i class="fas fa-redo-alt" title="reset game"> </i>
         </div>
         <div class="jewel-container animated-main-title bounce-title">
           <img
@@ -95,6 +107,17 @@
         <div class="game-display">
           <h2>YOUR SCORE</h2>
           <p id="score-number" class="game-display-value">0</p>
+        </div>
+
+        <div id="wins-lose-container">
+          <div class="wins-losses-box">
+            <h2 class="wins-losses-h2">Wins</h2>
+            <p id="wins">0</p>
+          </div>
+          <div class="wins-losses-box">
+            <h2 class="wins-losses-h2">Losses</h2>
+            <p id="losses">0</p>
+          </div>
         </div>
       </div>
     </section>
