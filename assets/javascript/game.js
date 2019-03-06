@@ -23,11 +23,11 @@ $(document).ready(function() {
 
   //hero section button start
   $("#enter-icon").on("click", function() {
+    start();
     var id = $("this").data("id");
 
     var audio = $("#boom #" + id)[0];
     audio.play();
-    start();
   });
 
   //random number generation and adding the value to the necessary elements
