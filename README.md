@@ -1,4 +1,4 @@
-# unit-4-game Crystal Collector
+# Run The Jewels Crystal Collector
 
 Created a game that would auto generate a random number from 19 - 120.
 
