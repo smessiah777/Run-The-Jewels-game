@@ -30,6 +30,16 @@ $(document).ready(function() {
     audio.play();
   });
 
+  //close event win
+  $("#win-close").on("click", function() {
+    $(".win-overlay").css("height", "0");
+  });
+
+  //close event lose
+  $("#lose-close").on("click", function() {
+    $(".lose-overlay").css("width", "0");
+  });
+
   //random number generation and adding the value to the necessary elements
   var rndNum = function(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -57,12 +67,13 @@ $(document).ready(function() {
     //matches added jewel score to game number
     if (sumScore > gameNum) {
       console.log("You Lose");
+      $(".lose-overlay").css("width", "100%");
       losses++;
       $("#losses").text(losses);
       roundReset();
     } else if (sumScore === gameNum) {
       console.log("You Win");
-      // alert("won");
+      $(".win-overlay").css("height", "100%");
       wins++;
       $("#wins").text(wins);
       roundReset();

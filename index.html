@@ -25,7 +25,7 @@
     ></script>
     <link
       rel="shortcut icon"
-      href="./assets/images/mike_elp.png"
+      href="./assets/images/rtj_hands.png"
       type="image/png"
     />
   </head>
@@ -76,7 +76,30 @@
     </section>
 
     <section id="game-section">
+        <div class="win-overlay">
+            <a id="win-close" href="#game-section" class="close-btn" >&times;</a>
+          <div class="overlay-content">
+              <h1 class="win-text">
+                  You Win!
+                </h1>
+                <img class="overlay-img" src="./assets/images/mike_elp.png" alt="">
+          </div>
+            
+          </div>
+
+          <div class="lose-overlay">
+              <a id="lose-close" href="#game-section" class="close-btn" >&times;</a>
+            <div class="overlay-content">
+                <h1 class="lose-text">
+                    You Lose....
+                  </h1>
+                  <img class="overlay-img" src="./assets/images/skeletons_elp.png" alt="">
+            </div>
+              
+            </div>
       <div class="container">
+
+          
         <div class="game-display">
           <h2>GAME #</h2>
           <p id="game-number" class="game-display-value">0</p>
