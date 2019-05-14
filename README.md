@@ -1,6 +1,8 @@
-![alt text](https://s3.amazonaws.com/alwayson-design/interactives/2017/run_the_jewels/media/png_header/mike_elp.png)
+<div style="text-align:center" markdown="1">
 
-# Run The Jewels Crystal Collector
+![alt text](https://www.metalorgie.com/grp_logo/RunTheJewels_logo.png)
+
+# Crystal Collector
 
 ### Created a game that would auto generate a random number from 19 - 120.
 
@@ -12,4 +14,14 @@
 
 ### Game will reset, after a win or lose of a round.
 
-### Won and lost rounds will be displayed for the player.
+### Won and lost rounds are displayed for the player.
+
+## </div>
+
+<div style="text-align:center" markdown="1">
+
+## **_Hero-Section_** ![alt text](assets/images/hero-section.png)
+
+## **_Game-Section_** ![alt text](assets/images/game-section.png)
+
+</div>
