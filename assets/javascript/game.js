@@ -30,6 +30,14 @@ $(document).ready(function() {
     audio.play();
   });
 
+  $("#start-btn").on("click", function() {
+    start();
+    var id = $("this").data("id");
+
+    var audio = $("#boom #" + id)[0];
+    audio.play();
+  });
+
   //close event win
   $("#win-close").on("click", function() {
     $(".win-overlay").css("height", "0");
