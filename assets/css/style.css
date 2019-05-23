@@ -23,6 +23,10 @@ body::-webkit-scrollbar-thumb {
   outline: 3px solid gold;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -403,10 +407,97 @@ h2 {
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
-/* Portrait and Landscape */
-@media only screen and (min-width: 375px) and (max-height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #main-title {
     font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #game-instructions {
+    width: 300px;
+    height: 480px;
+  }
+
+  #instructions-header {
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .instructions-p {
+    font-size: 24px;
+    line-height: 20px;
+    -webkit-text-stroke: 1px black;
+  }
+
+  #start-btn {
+    visibility: visible;
+    margin: 0 auto;
+    width: 188px;
+  }
+
+  #enter-icon {
+    visibility: hidden;
+  }
+
+  #game-section {
+    margin-top: 10px;
+  }
+
+  .game-display {
+    width: 234px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #main-title {
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-align: left;
+    padding-top: 10px;
+    margin-right: 30%;
+    margin-bottom: 5px;
+    -webkit-text-stroke: 1px rgb(0, 128, 128);
+  }
+  #game-instructions {
+    width: 350px;
+    height: 150px;
+    float: left;
+    margin-left: 25px;
+    padding: 10px;
+  }
+
+  #instructions-header {
+    font-size: 16px;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .instructions-p {
+    font-size: 12px;
+    line-height: 12px;
+    -webkit-text-stroke: 1px black;
+  }
+
+  #start-btn {
+    font-size: 12px;
+    height: 10px;
+    width: 300px;
+    padding: 5px 5px 15px 5px;
+    visibility: visible;
+  }
+  #enter-icon {
+    visibility: hidden;
+  }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+  #main-title {
+    font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -432,4 +523,16 @@ h2 {
   #enter-icon {
     visibility: hidden;
   }
+
+  #game-section {
+    margin-top: 10px;
+  }
+
+  .game-display {
+    width: 234px;
+  }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
 }

@@ -25,17 +25,11 @@ $(document).ready(function() {
   $("#enter-icon").on("click", function() {
     start();
     var id = $("this").data("id");
-
-    var audio = $("#boom #" + id)[0];
-    audio.play();
   });
 
   $("#start-btn").on("click", function() {
     start();
     var id = $("this").data("id");
-
-    var audio = $("#boom #" + id)[0];
-    audio.play();
   });
 
   //close event win
