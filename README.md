@@ -31,3 +31,9 @@ Won and lost rounds are displayed for the player.
 ## **_Game-Section_** ![alt text](assets/images/game-section.png)
 
 </div>
+
+<h2 align="center">
+Thanks for Playing!
+</h2>
+
+![alt text](assets/images/win.png)
