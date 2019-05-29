@@ -8,7 +8,7 @@
 Crystal Collector
 </h1>
 
-<p align="center" markdown="1">
+<h3 align="center" >
 
 Created a game that would auto generate a random number from 19 - 120.
 
@@ -22,7 +22,7 @@ Game will reset, after a win or lose of a round.
 
 Won and lost rounds are displayed for the player.
 
-</p>
+</h3>
 
 <div style="text-align:center" markdown="1">
 
