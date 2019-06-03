@@ -22,7 +22,7 @@ Game will reset, after a win or lose in a round.
 
 Won and lost rounds are displayed for the player.
 
-<a href="https://smessiah777.github.io/Run-The-Jewels-game/" target="blank__">Launch The App!</a>
+<a href="https://smessiah777.github.io/Run-The-Jewels-game/" target="__blank">Launch The App!</a>
 
 </h3>
 
