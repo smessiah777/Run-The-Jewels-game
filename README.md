@@ -36,7 +36,7 @@ Won and lost rounds are displayed for the player.
 
 
 ## Development Notes
-------
+
   - HTML
   - Pure CSS no frameworks
   - Javascript and Jquery
