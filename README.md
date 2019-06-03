@@ -16,9 +16,9 @@ Player is given four jewels/crystals that are assigned a random number value bet
 
 Player must click each jewel/crystal in order to add them up and try to match the random 19 - 120 generated number.
 
-If player can they will win the game, if not they will lose.
+If player can match the game number they will win the game, if not they will lose.
 
-Game will reset, after a win or lose of a round.
+Game will reset, after a win or lose in a round.
 
 Won and lost rounds are displayed for the player.
 
@@ -31,6 +31,13 @@ Won and lost rounds are displayed for the player.
 ## **_Game-Section_** ![alt text](assets/images/game-section.png)
 
 </div>
+
+
+## Development Notes
+------
+  - HTML
+  - Pure CSS no frameworks
+  - Javascript and Jquery
 
 <h2 align="center">
 Thanks for Playing!
