@@ -518,6 +518,7 @@ h2 {
   #game-instructions {
     width: 300px;
     height: 300px;
+    background-repeat: repeat-y;
   }
 
   #instructions-header {
@@ -597,4 +598,191 @@ h2 {
     margin-right: 5px;
     margin-bottom: 5px;
   }
+}
+
+
+/* --------Tablet--------- */
+
+/* Portrait */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #main-title {
+      font-size: 70px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    #game-instructions {
+      width: 600px;
+      height: 600px;
+      margin-bottom: 0px;
+      margin-top: 50px;
+    }
+  
+    #instructions-header {
+      font-size: 40px;
+      -webkit-text-stroke: 2px black;
+    }
+  
+    .instructions-p {
+      font-size: 40px;
+      line-height: 40px;
+      -webkit-text-stroke: 2px black;
+    }
+  
+    #start-btn {
+      visibility: visible;
+      margin: 30px auto 20px auto;
+      width: 188px;
+    }
+  
+    #reset-btn {
+      visibility: hidden;
+    }
+  
+    #icon-container {
+      margin-top: 0px;
+    }
+  
+    #enter-icon {
+      visibility: visible;
+      margin-bottom: 45px;
+      font-size: 200px;
+    }
+  
+    #game-section {
+      margin-top: 10px;
+    }
+  
+    .game-header {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+  
+    .game-display {
+      width: 234px;
+      height: 160px;
+    }
+  
+    .game-display-value {
+      font-size: 45px;
+    }
+  
+    h2 {
+      font-size: 38px;
+    }
+  
+    .jewel-container {
+      flex-wrap: wrap;
+      align-content: space-between;
+      margin-top: 30px;
+    }
+  
+    .jewel-img {
+      width: 300px;
+      height: 300px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #main-title {
+      font-size: 60px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    #game-instructions {
+      width: 600px;
+      height: 400px;
+      margin-bottom: 0px;
+      margin-top: 50px;
+    }
+  
+    #instructions-header {
+      font-size: 30px;
+      -webkit-text-stroke: 2px black;
+    }
+  
+    .instructions-p {
+      font-size: 30px;
+      line-height: 33px;
+      -webkit-text-stroke: 2px black;
+    }
+  
+    #start-btn {
+      visibility: visible;
+      margin: 30px auto 20px auto;
+      width: 188px;
+    }
+  
+    #reset-btn {
+      visibility: hidden;
+    }
+  
+    #icon-container {
+      margin-top: 0px;
+    }
+  
+    #enter-icon {
+      visibility: visible;
+      margin-bottom: 45px;
+      font-size: 150px;
+    }
+  
+    #game-section {
+      margin-top: 10px;
+    }
+  
+    .game-header {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+  
+    .game-display {
+      width: 234px;
+      height: 160px;
+    }
+  
+    .game-display-value {
+      font-size: 45px;
+    }
+  
+    h2 {
+      font-size: 38px;
+    }
+
+    .wins-losses-box > p {
+     
+      font-size: 35px;
+    }
+
+    .wins-losses-box{
+      height: 105px;
+    }
+  
+    .jewel-container {
+      flex-wrap: wrap;
+      align-content: space-between;
+      margin-top: 50px;
+    }
+  
+    .jewel-img {
+      width: 200px;
+      height: 200px;
+      margin-right: 15px;
+      margin-bottom: 5px;
+    }
+
 }
