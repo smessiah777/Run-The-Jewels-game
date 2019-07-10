@@ -791,6 +791,182 @@ and (orientation: portrait){
 }
 
 
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    #main-title {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    #game-instructions {
+      width: 300px;
+      height: 495px;
+      margin-bottom: 0px;
+    }
+  
+    #instructions-header {
+      font-size: 20px;
+      -webkit-text-stroke: 1px black;
+    }
+  
+    .instructions-p {
+      font-size: 24px;
+      line-height: 24px;
+      -webkit-text-stroke: 1px black;
+    }
+  
+    #start-btn {
+      visibility: visible;
+      margin: 30px auto 20px auto;
+      width: 188px;
+    }
+  
+    #reset-btn {
+      visibility: hidden;
+    }
+  
+    #icon-container {
+      margin-top: 0px;
+    }
+  
+    #enter-icon {
+      visibility: visible;
+      margin-bottom: 50px;
+      font-size: 65px;
+    }
+  
+    #game-section {
+      margin-top: 10px;
+    }
+  
+    .game-header {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+  
+    .game-display {
+      width: 234px;
+      height: 160px;
+    }
+  
+    .game-display-value {
+      font-size: 40px;
+    }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    .jewel-container {
+      flex-wrap: wrap;
+      align-content: space-between;
+    }
+  
+    .jewel-img {
+      width: 120px;
+      height: 120px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+    #main-title {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    #game-instructions {
+      width: 300px;
+      height: 495px;
+      margin-bottom: 0px;
+    }
+  
+    #instructions-header {
+      font-size: 20px;
+      -webkit-text-stroke: 1px black;
+    }
+  
+    .instructions-p {
+      font-size: 24px;
+      line-height: 24px;
+      -webkit-text-stroke: 1px black;
+    }
+  
+    #start-btn {
+      visibility: visible;
+      margin: 30px auto 20px auto;
+      width: 188px;
+    }
+  
+    #reset-btn {
+      visibility: hidden;
+    }
+  
+    #icon-container {
+      margin-top: 0px;
+    }
+  
+    #enter-icon {
+      visibility: visible;
+      margin-bottom: 50px;
+      font-size: 65px;
+    }
+  
+    #game-section {
+      margin-top: 10px;
+    }
+  
+    .game-header {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+  
+    .game-display {
+      width: 234px;
+      height: 160px;
+    }
+  
+    .game-display-value {
+      font-size: 40px;
+    }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    .jewel-container {
+      flex-wrap: wrap;
+      align-content: space-between;
+    }
+  
+    .jewel-img {
+      width: 120px;
+      height: 120px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+}
+
+
 
 /* --------Tablet--------- */
 
