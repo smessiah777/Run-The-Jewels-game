@@ -604,8 +604,8 @@ and (orientation: portrait){
 }
 
 
-/* -----------mobile 360 width----------- */
-/* Portrait */
+ /* -----------mobile 360 width-----------
+ Portrait 
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
@@ -690,7 +690,7 @@ and (orientation: portrait){
     }
 }
 
-/* Landscape */
+Landscape
 @media screen 
   and (min-width: 360px) 
   and (min-width: 640px) 
@@ -788,7 +788,7 @@ and (orientation: portrait){
       margin-bottom: 5px;
     }
 
-}
+}  */
 
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
